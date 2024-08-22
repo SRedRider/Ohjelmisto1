@@ -10,9 +10,9 @@ summa = luku1 + luku2 + luku3
 tulo = luku1 * luku2 * luku3
 
 # Lasketaan lukujen keskiarvo
-keskiarvo = summa / 3
+keskiarvo = int(summa / 3)
 
 
 print(f"Lukujen summa on: {summa}")
 print(f"Lukujen tulo on: {tulo}")
-print(f"Lukujen keskiarvo on: {keskiarvo:.2f}")
+print(f"Lukujen keskiarvo on: {keskiarvo}")
