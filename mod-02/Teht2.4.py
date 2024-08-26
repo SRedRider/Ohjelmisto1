@@ -1,15 +1,15 @@
-# Kysytään käyttäjältä kolme kokonaislukua
+# Kysytään käyttäjältä kolme kokonaisluku
 luku1 = int(input("Anna ensimmäinen kokonaisluku: "))
 luku2 = int(input("Anna toinen kokonaisluku: "))
 luku3 = int(input("Anna kolmas kokonaisluku: "))
 
-# Lasketaan lukujen summa
+# Lukujen summa
 summa = luku1 + luku2 + luku3
 
-# Lasketaan lukujen tulo
+# Lukujen tulo
 tulo = luku1 * luku2 * luku3
 
-# Lasketaan lukujen keskiarvo
+# Lukujen keskiarvo
 keskiarvo = int(summa / 3)
 
 
