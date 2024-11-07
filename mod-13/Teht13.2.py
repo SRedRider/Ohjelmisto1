@@ -9,8 +9,8 @@ def connect_to_database():
         host="127.0.0.1",
         port=3306,
         database="flight_game",  # Fill in your database name here
-        user="shst",           # Fill in your MySQL username here
-        password="?P455?",        # Fill in your MySQL password here
+        user="",           # Fill in your MySQL username here
+        password="",        # Fill in your MySQL password here
         autocommit=True
     )
 
